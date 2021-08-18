@@ -3,6 +3,7 @@
   <Layout>
     <div class="divide__between">
       <h1>Product List</h1>
+      
     </div>
   <div>
     <div v-if="$page.gcms.products" class="product-grid">
@@ -122,7 +123,7 @@ export default {
 }
 .product-wrapper{
   padding: 1.5rem;
-  width: 100%;
+  width: 300px;
   border-radius: .5rem;
   position: relative;
   background-color: #f5f5f5;
