@@ -6,11 +6,11 @@
       <nav class="nav">
         <div class="container">
           <ul class="navbar-center">
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/bags1">Bags</a></li>
-            <li><a href="/">Home</a></li>
-            <li id="d1"><a href="/">Shopnong Online</a></li>
+            <li><a href="/shopnong3/contact">Contact</a></li>
+            <li><a href="/shopnong3/about">About</a></li>
+            <li><a href="/shopnong3/bags1">Bags</a></li>
+            <li><a href="/shopnong3">Home</a></li>
+            <li id="d1"><a href="/shopnong3">Shopnong Online</a></li>
           </ul> <!--end navbar-left -->
         </div> <!--end container -->
       </nav>
