@@ -4,11 +4,6 @@ module.exports = {
   siteName: 'Shopnong',
   siteUrl: 'https://6110110628.github.io',
   pathPrefix: '/shopnong3',
-  pathPrefix:'/bags1',
-  pathPrefix:'/bags2',
-  pathPrefix:'/bags3',
-  pathPrefix:'/about',
-  pathPrefix:'/contact',
   
 
   plugins: [
