@@ -1,15 +1,15 @@
 <template>
   <Layout>
     <div class="layout">
-      <h1>About us</h1>
-      <h2>Student ID</h2>
+      <h1>Contact</h1>
+      <h2>E-mail</h2>
       <p class="d1"><br>
-        5810110644<br>
-        5910110167<br>
-        6110110107<br>
-        6110110249<br>
-        6110110363<br>
-        6110110628<br>
+        5810110644@email.psu.ac.th<br>
+        5910110167@email.psu.ac.th<br>
+        6110110107@email.psu.ac.th<br>
+        6110110249@email.psu.ac.th<br>
+        6110110363@email.psu.ac.th<br>
+        6110110628@email.psu.ac.th<br>
         <br><br><br><br>
         <br><br><br><br>
         <br><br><br><br>

@@ -1,153 +1,43 @@
-//src\pages\Index.vue
 <template>
   <Layout>
-    <div class="divide__between">
-      <h1>Product List</h1>
-      
+    <div class="img">
+      <img src="../indexbg.jpg" alt="index background" width="600" height="400">
     </div>
-  <div>
-    <div v-if="$page.gcms.products" class="product-grid">
-      <div
-        v-for="(product) in products"
-        :key="product.id"
-        class="flex-col"
-      >
-        <g-link :to="'product/' + product.id" class="link" >
-        <div class="product-wrapper">
-          <g-image v-for="(images, slug) in product.images" class="img" :key="slug" :src="images.url" />   
-           <div class="product-content">
-          <p class="product-name"> {{ product.name }}</p>
-          <p class="product-price">  &#x20A6;{{ product.price * 10 }}</p>
-        </div>    
-        </div>
-       
-        </g-link>  
-      </div>
+    <div class="layout">
+      <h1>Wellcome to Shopnong Online</h1>
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller 
+        over the Internet using a web browser or a mobile app. Consumers find a product of interest by visiting the website of 
+        the retailer directly or by searching among alternative vendors using a shopping search engine, which displays 
+        the same product's availability and pricing at different e-retailers. As of 2020, customers can shop online using a range of 
+        different computers and devices, including desktop computers, laptops, tablet computers and smartphones.<br><br>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; An online shop evokes the physical analogy of buying products or services 
+        at a regular "bricks-and-mortar" retailer or shopping center; the process is called business-to-consumer (B2C) online shopping.
+         When an online store is set up to enable businesses to buy from another businesses, the process is called business-to-business (B2B) 
+         online shopping. A typical online store enables the customer to browse the firm's range of products and services, 
+         view photos or images of the products, along with information about the product specifications, features and prices.<br><br></p>
     </div>
-  </div>
   </Layout>
 </template>
+
 <script>
 export default {
-  data() {
-    return {
-      products: [{
-        name: '',
-        description: '',
-        category: {
-          name: ''
-        },
-        price: '',
-        images: [{
-          url: ''
-        }]
-      }],
-    }
-  },
- created(){
-  this.products = this.$page.gcms.products
- },
+  metaInfo: {
+    title: 'Shopnong Online'
+  }
 }
 </script>
-<page-query>
-  {
-    gcms{
-      products {
-        id
-        name
-        description
-        categories {
-          name
-        }
-        price
-        images {
-          url
-        }
-        slug
-      }
-    }
-  }
-</page-query>
 
 <style>
-.divide__between{
-  display: flex;
-  justify-content: space-between;
-}
-
-.button{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    border: 1px solid #5828e8;
-    width: 10rem;
+  .img {
     text-align: center;
-    justify-content: center;
-    height: 3rem;
-    margin-top: .75rem;
-    margin-bottom: .75rem;
-    border-radius: 5px;
-}
-
-.button:hover{
-  background: #5828e8;
-  color: #f5f5f5;
-}
-.product-content{
-  padding-top: 1.5rem;
-  text-align: center;
-}
-.img{
-  width: 300px;
-  transition-delay: 500ms;
-  object-fit: cover;
-}
-.product-grid{
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
-  justify-content: space-between;
-}
-.flex-col{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1rem;
-}
-.link{
-  display: flex;
-  width: 100%;
-  text-decoration: none;
-  height: 100%;
-}
-.product-wrapper{
-  padding: 1.5rem;
-  width: 300px;
-  border-radius: .5rem;
-  position: relative;
-  background-color: #f5f5f5;
-}
-
-.product-name{
-  font-size: 1.125rem;
-  color: #101b42;
-  font-weight: 700;
-  margin-bottom: .5rem;
-}
-.product-name:hover{
-   color: #5828e8;
-}
-.product-price{
-  font-size: .875rem;
-  color: #888;
-  font-weight: bold;
-}
-
-@media(max-width: 760px){
-  .product-grid{
-    justify-content: center;   
-     padding-right: 1rem;
   }
+
+  .layout {
+  max-width: auto;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 0rem;
+  padding-bottom: auto;
+  background-color: white;
 }
 </style>

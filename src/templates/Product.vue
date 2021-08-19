@@ -1,8 +1,8 @@
 // src\templates\Product.vue
 <template>
     <Layout>
-        <div v-if="this.$page.gcms.product" class="product_layout" >
-            <div> 
+        <div v-if="this.$page.gcms.product" class="layout" >
+            <div class="img"> 
               <g-image :src="product.images[0].url" class="img" alt="new image" />    
             </div>
             <div>
@@ -10,6 +10,10 @@
                 <p > {{ product.description }} </p>
                 <p>
                     ${{ product.price}}
+                    <br><br><br><br>
+                    <br><br><br><br>
+                    <br><br><br><br>
+                    <br><br><br><br><br>
                 </p>
             </div>
             
@@ -54,6 +58,7 @@ query GetProduct($id: ID) {
 <style scoped>
     .img{
         width: 300px;
+        text-align: center;
     }
     .product_layout{
         display: flex;
@@ -61,5 +66,14 @@ query GetProduct($id: ID) {
 
         justify-content: space-between;
         margin-top: 2rem;
+    }
+
+     .layout {
+        max-width: auto;
+        margin-right: 100px;
+        margin-left: 100px;
+        padding-top: 0rem;
+        padding-bottom: auto;
+        background-color: white;
     }
 </style>
