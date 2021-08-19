@@ -7,11 +7,11 @@
     </div>
     <div class="d1-center">
     <div class="pagination">
-        <a href="/shopnong3/bags1">&laquo;</a>
-        <a href="/shopnong3/bags1">1</a>
-        <a class="active" href="/shopnong3/bag2">2</a>
-        <a href="/shopnong3/bags3">3</a>
-        <a href="/shopnong3/bags3">&raquo;</a>
+        <a href="/shopnong/bags1">&laquo;</a>
+        <a href="/shopnong/bags1">1</a>
+        <a class="active" href="/shopnong/bag2">2</a>
+        <a href="/shopnong/bags3">3</a>
+        <a href="/shopnong/bags3">&raquo;</a>
     </div>
     </div>
   <div>

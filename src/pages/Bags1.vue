@@ -8,10 +8,10 @@
     <div class="d1-center">
     <div class="pagination">
         <a href="#">&laquo;</a>
-        <a class="active" href="/shopnong3/bags1">1</a>
-        <a href="/shopnong3/bags2">2</a>
-        <a href="/shopnong3/bags3">3</a>
-        <a href="/shopnong3/bags2">&raquo;</a>
+        <a class="active" href="/shopnong/bags1">1</a>
+        <a href="/shopnong/bags2">2</a>
+        <a href="/shopnong/bags3">3</a>
+        <a href="/shopnong/bags2">&raquo;</a>
     </div>
     </div>
   <div>
