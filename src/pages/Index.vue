@@ -1,9 +1,7 @@
 <template>
   <Layout>
-    <div class="img">
-      <img src="../indexbg.jpg" alt="index background" width="600" height="400">
-    </div>
     <div class="layout">
+      <img src="../indexbg.jpg" alt="index background" width="600" height="400">
       <h1>Wellcome to Shopnong Online</h1>
       <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller 
         over the Internet using a web browser or a mobile app. Consumers find a product of interest by visiting the website of 
